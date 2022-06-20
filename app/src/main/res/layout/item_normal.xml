@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:foreground="@drawable/bg_round"
+    android:padding="0dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <RelativeLayout
+      android:gravity="center_vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <TextView
+          android:id="@+id/tv_title"
+          android:textSize="18sp"
+          android:gravity="center"
+          android:textColor="@android:color/white"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"/>
+
+  </RelativeLayout>
+
+</androidx.wear.widget.BoxInsetLayout>
