@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/bg_round.xml" value="0.2525" />
+        <entry key="app/src/main/res/drawable/bg_round_second.xml" value="0.2525" />
+        <entry key="app/src/main/res/layout-round/activity_main.xml" value="0.7771966527196653" />
+        <entry key="app/src/main/res/layout-round/item_normal.xml" value="0.8761792452830188" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.7771966527196653" />
         <entry key="app/src/main/res/layout/item_normal.xml" value="0.7771966527196653" />
       </map>
