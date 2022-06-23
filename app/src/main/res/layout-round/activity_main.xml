@@ -10,12 +10,19 @@
     tools:deviceIds="wear">
 
     <RelativeLayout
-        app:boxedEdges="all"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <TextView
+            android:text="title"
+            android:id="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
         <androidx.wear.widget.WearableRecyclerView
             android:id="@+id/wrv"
+            android:layout_below="@id/title"
             android:scrollbars="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
